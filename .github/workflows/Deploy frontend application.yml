@@ -36,7 +36,7 @@ jobs:
       with:
         context: .
         push: true
-        tags: {your docker user name}/234-deploylab-frontend:latest
+        tags: dyxxnx/234-deploylab-frontend:latest
 
     - name: Copy file via SSH password
       uses: appleboy/scp-action@v0.1.4
